@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1px"
+    >
+    <RelativeLayout
+        android:id="@+id/rel_concernlistview"
+        android:layout_width="match_parent"
+        android:layout_height="48px"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/img_head_concernlistview"
+            android:layout_width="32px"
+            android:layout_height="32px"
+            android:layout_marginLeft="12px"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/head3x"
+            />
+        <TextView
+            android:id="@+id/tv_name_concernlistview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#323232"
+            android:textSize="16px"
+            android:layout_marginLeft="56px"
+            android:layout_centerVertical="true"/>
+        <Button
+            android:id="@+id/but_concernlistview"
+            android:layout_width="96px"
+            android:layout_height="28px"
+            android:background="@mipmap/invite13x"
+            android:text="邀请"
+            android:textSize="16px"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12px"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
